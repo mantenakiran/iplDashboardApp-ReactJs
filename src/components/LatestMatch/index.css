@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.latest-match-bg-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+.latest-match-container {
+  padding: 15px;
+}
+.competing-team-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+
+  font-size: 22px;
+}
+.competing-date-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 20px;
+}
+.competing-venue-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 14px;
+}
+.competing-result-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 15px;
+}
+.competing-team-logo {
+  width: 20%;
+  align-self: center;
+  margin-left: 20px;
+}
+.match-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid #475569;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.latest-bottom-container {
+  padding: 15px;
+}
+.first-innings-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.first-innings-text-value {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-bg-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .match-details-container {
+    align-items: center;
+  }
+  .competing-team-logo {
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 0px;
+    align-self: center;
+  }
+  .line {
+    display: none;
+  }
+  .latest-bottom-container {
+    text-align: right;
+  }
+  .competing-team-text {
+    font-size: 30px;
+  }
+  .competing-date-text {
+    font-size: 25px;
+  }
+  .competing-venue-text {
+    font-size: 17px;
+  }
+  .competing-result-text {
+    font-size: 20px;
+  }
+  .first-innings-text {
+    font-size: 23px;
+  }
+  .first-innings-text-value {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .competing-team-logo {
+    margin-left: 200px;
+  }
+}

@@ -1,0 +1,37 @@
+.team-list-container {
+  background-color: #ffffff33;
+  width: 40%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.link-list {
+  text-decoration: none;
+}
+.list-image {
+  max-width: 30%;
+  align-self: center;
+  margin-right: 10px;
+}
+.items-list-container {
+  display: flex;
+}
+.list-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .list-heading {
+    font-size: 20px;
+  }
+  .list-image {
+    width: 20%;
+  }
+}

@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.result-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
+  height: 360px;
+}
+@media screen and (max-width: 440px) {
+  .result-list-container {
+    width: 40%;
+  }
+}
+.competing-result-logo {
+  height: 40px;
+}
+.result-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.result-won-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+.won-text {
+  font-family: 'Bree Serif';
+  color: #18ed66;
+  font-size: 20px;
+  text-align: center;
+}
+.lost-text {
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .result-list-container {
+    width: 30%;
+  }
+  .result-list-container {
+    height: 300px;
+  }
+}
